@@ -1,0 +1,70 @@
+
+
+header ul{
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+    padding: 45px;
+    display: flex;
+    justify-content: space-around;
+    background-image:url(../img/technologie-information.jpg)
+}
+
+.img1{
+    padding-top: 147px;
+}
+
+header a {
+background-color: transparent;
+color: white;
+text-decoration: none;
+padding: 25px;
+border-right: 2px solid white;
+
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sectionAccueil{
+    background-color: #161616;
+    height: 100vh;
+    color: white;
+   
+}
+
+.write{
+    padding-top: 270px;
+    padding-left: 10px;
+    font-size: 35px;
+    color: #BCBCBC;
+    font-size: 30px 
+}
+
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    margin-top: 7px;
+    margin-bottom: 0;
+    margin: 5px 0px 10px;
+    color: #ffffff;
+    
+}
+
+.presentation {
+    margin-top: 350px;
+}
+
+.titre{
+    color: #ff3740;
+    font-size: 24px;
+    margin-top: 8px;
+
+}
+
+.fa-connectdevelop{
+    color: #ff3740;
+}
