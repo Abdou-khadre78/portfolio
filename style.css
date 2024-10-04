@@ -1,85 +1,158 @@
-
-
-header ul{
+/* Header et navigation */
+header ul {
     text-decoration: none;
     list-style: none;
     background-color: black;
     padding: 45px;
     display: flex;
     justify-content: space-around;
-    background-image:url(../img/technologie-information.jpg)
-}
-
-.img1{
-    padding-top: 147px;
+    background-image: url(../img/technologie-information.jpg);
 }
 
 header a {
-background-color: transparent;
-color: white;
-text-decoration: none;
-padding: 25px;
-border-right: 2px solid white;
-
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    border-right: 2px solid white;
 }
 
-
-.flex {
-    display: flex;
-    justify-content: space-around;
-}
-
-.sectionAccueil{
+/* Section d'accueil */
+.sectionAccueil {
     background-color: #161616;
     height: 100vh;
     color: white;
-   
 }
 
-.write{
-    padding-top: 270px;
-    padding-left: 10px;
-    font-size: 35px;
-    color: #BCBCBC;
-    font-size: 30px 
-}
-
-.name{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 100px;
-    margin-top: 7px;
-    margin-bottom: 0;
-    margin: 5px 0px 10px;
-    color: #ffffff;
-    
+.flex {
+    display: flex;
 }
 
 .presentation {
     margin-top: 350px;
+    margin-left: 50px;
 }
 
-.titre{
+.write {
+    padding-top: 270px;
+    padding-left: 10px;
+    font-size: 35px;
+    color: #BCBCBC;
+}
+
+.name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    margin: 5px 0px 10px;
+    color: #ffffff;
+}
+
+.titre {
     color: #ff3740;
     font-size: 24px;
     margin-top: 8px;
-
 }
 
-.fa-connectdevelop{
+.fa-connectdevelop {
     color: #ff3740;
 }
 
-.para1{
-        color: #555555;
-        float: left;
-        font-family: Open Sans;
-        font-size: 19px;
-        font-style: italic;
-        font-weight: 400;
-        line-height: 30px;
-        width: 100%;
+/* Image accueil */
+.img1 {
+    padding-top: 147px;
 }
 
-.img2{
+/* Section Profil */
+.flex2 {
+    display: flex;
+    margin-left: 280px;
+}
+
+.floating{
+    
+   left: 20px;
+    margin-top: 5px;
+    margin-right: 30px;
+
+}
+
+
+.mouse{
+    border: 2px solid #9a9a9a;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    bottom: 0;
+    font-size: 22px;
+    height: 80px;
+    left: 50%;
+    line-height: 76px;
+    margin: 0 0 0 -22px !important;
+    position: absolute;
+    text-align: center;
+    width: 44px;
+}
+
+.img2 {
     padding-top: 35px;
 }
+
+/* Paragraphe Profil */
+.para1 {
+    color: #555555;
+    font-family: Open Sans, sans-serif;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 200px;
+
+}
+
+.red {
+    color: black;
+}
+
+/* Information Personnelle */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.label {
+    font-weight: bold;
+    color: gray;
+}
+
+.value {
+    color: #333;
+    width: 65%;
+}
+
+/* Liste non stylée pour les infos */
+li {
+    list-style-type: none;
+}
+
+.strongi{
+    color: #161616;
+}
+
+.btn{ 
+    padding: 10px;
+    border:none ;
+    border-radius: 5px;
+    background:red ;
+    margin-left: 1000px;
+}
+
